@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fpage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: darkgray;
+}
+
+.container{
+    display: none;
+    width: 200px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 26px;
+}
+.showbox{
+    width:90%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
